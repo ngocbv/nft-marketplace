@@ -9,7 +9,7 @@ import "hardhat/console.sol";
 import "@openzeppelin/contracts-upgradeable/security/ReentrancyGuardUpgradeable.sol";
 import "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol";
 
-contract NFTMarket is ReentrancyGuardUpgradeable {
+contract NFTMarketV2 is ReentrancyGuardUpgradeable {
   using Counters for Counters.Counter;
   Counters.Counter private _itemIds;
   Counters.Counter private _itemsSold;
@@ -19,7 +19,7 @@ contract NFTMarket is ReentrancyGuardUpgradeable {
 
   function initialize() public initializer {
     owner = payable(msg.sender);
-    listingPrice = 0.025 ether;
+    listingPrice = 0.00025 ether;
   }
 
   struct MarketItem {

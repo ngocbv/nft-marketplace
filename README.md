@@ -13,3 +13,10 @@ npx hardhat node
 node scripts/sample-script.js
 npx hardhat help
 ```
+
+NFTMarket address:
+https://ropsten.etherscan.io/address/0x895C0AAED623b774a8559B4Bf1b10D78ED085EEb
+
+
+NFT address:
+https://ropsten.etherscan.io/address/0x595F1eBBb0bAae6E55b32223a32E48074A45e4fa
